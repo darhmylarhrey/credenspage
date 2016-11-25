@@ -1,0 +1,221 @@
+body{
+background:white;
+font-family:Arial, Helvetica, sans-serif;
+
+}
+
+nav{
+	background: white;
+	height: 50px;
+	margin-top:-10px; 
+}
+
+nav ul li{
+	display: inline;
+	list-style: none;	
+}
+a:link {
+    color:black; 
+}
+a:visited {
+    color: red;
+}
+a:hover {
+    color: skyblue;
+    padding-bottom:5px; 
+    border-bottom: solid 3px red;
+}
+a:active {
+    color: red;
+}
+
+a{
+text-decoration: none;	
+}
+
+
+.credens{
+	padding-left:25px;
+	height:30px; 
+}
+
+.pull{
+	float: right;
+	padding-left:20px;
+	padding-right:20px;
+	padding-top: 14px;
+	font-weight: bold;
+
+}
+input{
+	border-color:skyblue;
+	border-radius:3px;
+	padding: 2px;
+	padding-left:6px; 
+}
+.pageOne{
+	background: url(../img/build.jpg);
+	background-size: cover;
+	height: 500px;
+	margin-right: -10px;
+	margin-left:-10px; 
+}
+.work{
+	width:650px;
+	float: left;
+	padding-left:65px;
+	padding-top: 10px;
+}
+
+h1{
+	font-size:60px;
+	color: white; 
+}
+p{
+	font-style: italic;
+	color: white;
+
+ 
+}
+.work button{
+	height:30px;
+	width: 120px;
+	background:red;
+	color: white;
+	font-size:15px; 
+	border:none;
+	margin-top:40px;  
+}
+.work button:hover {
+    color:red;
+    background:white;
+    } 
+.darts{
+	width:550px;
+	float: right;
+
+}
+#dart{
+    width: 300px; 
+    height:300px; 
+    margin-top: 80px; 
+    margin-left:130px;
+    opacity: 0.8;
+}
+.image1{
+	width:20px
+	height:20px; 
+}
+.pageTwo{
+	text-align:center;
+	padding-bottom: 40px;
+	background:white;
+	
+}
+.pageTwo p{
+	font-style: italic;
+	color:skyblue;
+	
+}
+.clients{
+	margin-right:180px;
+	margin-left:180PX;
+	padding-top:40px; 
+}
+.advantage{
+	width:24%;
+	display:inline-block;
+	padding:5px; 
+}
+.advantage img{
+	height:35px;
+	width:30px;
+	padding-top:30px; 
+}
+.advantage a{
+	color: red;
+}
+.advantage a:hover{
+	color:lightblue;
+
+}
+.pageThree{
+    padding-right: 70px;
+    padding-left: 70px;
+    padding-top:40px;
+    margin-right: -10px;
+	margin-left:-10px;
+	font-family: verdana; 
+    background: url(../img/build2.jpg);
+	background-size: cover;
+	background:
+
+}
+.capability{
+	width:30%;
+	display:inline-block;
+	margin:10px;
+	margin-top:-20px;  
+}
+
+#weTeach{
+	width: 37%;
+	color:white;
+}
+
+#image{
+	width: 20%;
+}
+h3{
+    text-align: center;
+	color: black;
+	font-size:20px;
+}
+
+h4{
+	margin-bottom: 15px;
+	color: black;
+}
+
+.capability img{
+	width: 300px;
+	height:400px;
+	margin-left:40px;
+	margin-bottom:-12px; 
+}
+.capability a{
+	color: white;
+	display: block;
+	height:10px;
+	width:80%;
+	padding:15px;
+	border: none;  
+	border-bottom-right-radius:25px;
+}
+
+.capability a:hover {
+    background-color: red;
+    color: white;
+}
+footer{
+	background:black;
+	height:30px;
+	margin-right: -15px;
+	margin-left:-15px;
+	margin-top:-17px; 
+	padding-right:20px;
+	padding-left:80px;
+	padding-top:5px;
+	padding-bottom:20px;
+	text-align: center;  
+} 
+footer a:hover {
+	color: skyblue;
+}	
+
+img{
+	transition: all .2s ease-in-out;
+}
+img:hover{transform: scale(1.2);
+
+}
